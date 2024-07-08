@@ -1,0 +1,186 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+
+#home {
+    background-image: url('https://images7.alphacoders.com/130/1300550.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    height: 100vh;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.button-24 {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.button-24:active {
+    opacity: .5;
+}
+
+#introduction {
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/554/24/desktop-wallpaper-best-4-fitness-on-hip-gym-boy.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#introduction h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#introduction p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+#featured {
+    background-color: black;
+    color: white;
+    padding: 80px 0; 
+}
+
+#featured .card {
+    background-color: #333; 
+    margin-bottom: 2em;
+}
+
+#featured .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#featured .card-body {
+    padding: 20px;
+}
+
+#featured .card-title,
+#featured .card-text {
+    color: white; 
+}
+
+#categories {
+    background-color: black;
+    color: white;
+    padding: 80px 0; 
+}
+
+#categories h2 {
+    color: white; 
+}
+
+#categories .col {
+    padding: 15px; 
+}
+
+#categories .image-container {
+    height: 300px; 
+    overflow: hidden; 
+}
+
+#categories .image-container img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover; 
+    transition: transform 0.3s ease; 
+}
+
+#categories .image-container:hover img {
+    transform: scale(1.1); 
+}
+
+#about-us {
+    background-image: url('https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114137.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#contact-us {
+    background-color: black;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+#contact-us .contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+}
+#contact-us .contact-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+#contact-us .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+#contact-us form .form-control {
+    background-color: #333;
+    border-color: #666;
+    color: white;
+}
+#contact-us form .form-control:focus {
+    background-color: #555;
+    border-color: #888;
+    color: white;
+}
+#contact-us form textarea.form-control {
+    height: 150px;
+}
+
